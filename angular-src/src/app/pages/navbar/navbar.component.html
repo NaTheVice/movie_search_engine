@@ -1,0 +1,31 @@
+<div class="row justify-content-center nav_row">
+  <nav class="menu menu--bagot">
+
+    <ul class="menu__list">
+      <li class="menu__item" [class.menu__item--current]="clicked === 'movies'">
+        <a routerLink="/news" class="menu__link">Movies</a>
+      </li>
+      <li class="menu__item" [class.menu__item--current]="clicked === 'Serie'">
+        <a class="menu__link" routerLink="/Serie">Serie</a>
+      </li>
+      <li class="menu__item" [class.menu__item--current]="clicked === 'search'">
+        <a class="menu__link"  routerLink="/search">Search</a>
+      </li>
+      <li class="menu__item" [class.menu__item--current]="clicked === 'register'">
+        <a  class="menu__link"  routerLink="/register">Register</a>
+      </li>
+      <li class="menu__item" [class.menu__item--current]="clicked === 'login'">
+        <a class="menu__link"  routerLink="/login">Log in</a>
+      </li>
+ 
+     
+
+    </ul>
+   
+  </nav>
+  <div class="nav_search">
+  <app-search></app-search>
+</div>
+</div>
+
+
