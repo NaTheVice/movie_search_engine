@@ -1,6 +1,6 @@
-# MAGIC MOVIE MASTER
+# MOVIE SEARCH ENGINE
 
-Movie search-engine on MEAN stack
+Movie search-engine on MEAN stack, with GraphQL, Apollo Client, Apollo-Express-Server, ngrx-store, ngrx-effects
 
 ### Version
 1.0.0
