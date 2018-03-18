@@ -34,5 +34,6 @@ for graphql using in dev-mode
 change app.module.ts --> apollo link http://localhost:PORT/grapql
 ```
 
+### Try on Heroku
 
-
+https://mugie-movies.herokuapp.com/
